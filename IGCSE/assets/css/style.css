@@ -162,6 +162,13 @@ body {
   box-sizing: border-box;
 }
 
+@media (max-width: 991px) {
+  .logo {
+    position: fixed;
+    left: 10px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Search Bar
 --------------------------------------------------------------*/
@@ -357,7 +364,11 @@ body {
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
+    position: fixed;
+    right: 30px;
+    top: 30px;
   }
+
 
   .navbar ul {
     display: none;
